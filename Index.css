@@ -1,0 +1,28 @@
+@font-face {
+    font-family:"Inter";
+    src: url("../material/Inter.ttf");
+}
+:root{
+    --LightGrey:#999999;
+    --Grey:#7f7f7f;
+    --DarkGrey:#353535;
+    --White:#f4f4f4;
+    --Blue:#087fe7;
+    --DarkWhite:#e5e5e5;
+    --Black:#050505;
+    --LightBlack: #121212;
+    --DeepGrey: #666666;
+
+    --ShadowLight: rgba(0, 0, 0, 0.1);
+    --ShadowDark: rgba(0, 0, 0, 0.2);
+}
+*{
+    font-family: "Inter";
+}
+
+body{
+    background-color: var(--White);
+
+}
+
+
