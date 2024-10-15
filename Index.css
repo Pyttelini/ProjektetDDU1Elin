@@ -15,14 +15,87 @@
 
     --ShadowLight: rgba(0, 0, 0, 0.1);
     --ShadowDark: rgba(0, 0, 0, 0.2);
+    
+    --XXSmall: 12px;
+    --XSmall: 13px;
+    --Small: 13.5px;
+    --XXMedium: 14px;
+    --XMedium: 15px;
+    --Medium: 18px;
+    --Large: 24px;
+    --XLarge: 26px;
+    --XXLarge: 36px;
+    --Huge: 45px;
+    --XHuge: 53px;
+
+    --FWeightS: 320;
+    --FWeightM: 400;
+    --FWeightL: 450;
+    --FWeightXL: 550;
+    --FWeightXXL: 650;
 }
+
+
 *{
     font-family: "Inter";
 }
 
 body{
     background-color: var(--White);
+    margin: 0;
 
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+nav{
+    
+    margin: 0px 15px;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--DarkWhite);
+    padding: 20px 0px;
+}
+
+#NavRight a, #NavLeft a{
+    text-decoration: none;
+    color: var(--LightBlack);
+    font-weight: var(--FWeightL);
+}
+#NavRight a img, #NavLeft a img{
+    padding-bottom: 2px;
+}
+
+#NavLeft, #NavRight{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#NavLeft #Barky{
+    height: 25px;
+}
+
+#LogInLine{
+    padding-left: 20px;
+    border-left: 1px solid var(--DarkWhite);
+}
+
+#NavRight button{
+    background-color: var(--Black);
+    color: var(--White);
+    padding: 7px 11px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: var(--ShadowLight);
+    font-weight: var(--FWeightL);
 }
 
 
