@@ -43,6 +43,9 @@
 body{
     background-color: var(--White);
     margin: 0;
+    display: flex;
+    align-items: center;
+    
 
 }
 header{
@@ -65,7 +68,7 @@ nav{
 #NavRight a, #NavLeft a{
     text-decoration: none;
     color: var(--LightBlack);
-    font-weight: var(--FWeightL);
+    font-weight: var(--FWeightM);
 }
 #NavRight a img, #NavLeft a img{
     padding-bottom: 2px;
@@ -88,14 +91,55 @@ nav{
     border-left: 1px solid var(--DarkWhite);
 }
 
-#NavRight button{
+button{
     background-color: var(--Black);
     color: var(--White);
-    padding: 7px 11px;
+    padding: 8px 11px;
     border: none;
     border-radius: 5px;
     box-shadow: var(--ShadowLight);
     font-weight: var(--FWeightL);
+    display: inline;
+    width: 120px;
 }
+
+.Struktur{
+    max-width: 1000px;
+    margin-top: 71px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#Intro{
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--DarkWhite);
+    gap: 50px;
+}
+
+#Intro img{
+    width: 500px;
+}
+#IntroText{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: var(--DeepGrey);
+    font-weight: var(--FWeightS);
+    font-size: var(--Medium);
+}
+
+#IntroText h1{
+    font-weight: var(--FWeightXXL);
+    font-size: var(--Huge);
+    color: var(--Black);
+    margin: 0;
+}
+p{
+    line-height: 1.6;
+}
+
+
 
 
