@@ -54,6 +54,7 @@ header{
     left: 0;
     width: 100%;
     z-index: 99;
+    background-color: var(--White);
 }
 nav{
     
@@ -97,7 +98,7 @@ button{
     padding: 8px 11px;
     border: none;
     border-radius: 5px;
-    box-shadow: var(--ShadowLight);
+    box-shadow: 1px 1px 5px var(--ShadowLight);
     font-weight: var(--FWeightL);
     display: inline;
     width: 120px;
@@ -152,6 +153,13 @@ p{
 #Brands img{
     height: 25px;
     mix-blend-mode: multiply;
+}
+
+.App .AppPic{
+    max-width: 995px;
+    box-shadow: 0px 0px 8px var(--ShadowDark);
+    border-radius: 5px;
+
 }
 
 
