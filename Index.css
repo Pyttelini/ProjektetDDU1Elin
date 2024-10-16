@@ -139,6 +139,20 @@ button{
 p{
     line-height: 1.6;
 }
+#Brands{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+    margin-top: 30px;
+    padding: 0 30px 30px 30px;
+    border-bottom: 1px solid var(--DarkWhite);
+}
+#Brands img{
+    height: 25px;
+    mix-blend-mode: multiply;
+}
 
 
 
