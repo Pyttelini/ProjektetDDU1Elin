@@ -98,7 +98,7 @@ button{
     padding: 8px 11px;
     border: none;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px var(--ShadowLight);
+    box-shadow: 1px 1px 5px var(--ShadowDark);
     font-weight: var(--FWeightL);
     display: inline;
     width: 120px;
@@ -159,18 +159,68 @@ p{
 
 .App .AppPic{
     max-width: 995px;
-    box-shadow: 0px 0px 8px var(--ShadowDark);
+    box-shadow: 0px 0px 10px var(--ShadowLight);
     border-radius: 5px;
+    margin-top: 30px;
 
 }
 .App{
-    margin-top: 70px;
+    margin-top: 80px;
 
 }
 .App h2{
+    font-size: var(--XXLarge);
     font-weight: var(--FWeightXXL);
-    font-size: var(--XLarge);
+    margin: 15px 0px;
 }
+
+.AppText p{
+    max-width: 480px;
+    font-weight: var(--FWeightM);
+    color: var(--DeepGrey);
+}
+
+.Person{
+    text-align: center;
+    color: var(--Grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Person div{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+
+}
+.Person div div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.Person div p{
+   font-size: var(--XXSmall); 
+   font-weight: var(--FWeightS);
+   margin: 0px 0px 0px 8px;
+}
+
+.Person img{
+    height: 50px;  
+}
+.Person .Name{
+    color: var(--Black);
+    font-size: var(--XXMedium);
+    font-weight: var(--FWeightL);
+}
+#EndApp{
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--DarkWhite);
+}
+
 
 
 
