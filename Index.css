@@ -120,7 +120,7 @@ button{
 }
 
 #Intro img{
-    width: 500px;
+    width: 450px;
 }
 #IntroText{
     display: flex;
@@ -129,16 +129,18 @@ button{
     color: var(--DeepGrey);
     font-weight: var(--FWeightS);
     font-size: var(--Medium);
+    
 }
 
 #IntroText h1{
     font-weight: var(--FWeightXXL);
-    font-size: var(--Huge);
+    font-size: var(--XHuge);
     color: var(--Black);
     margin: 0;
 }
 p{
     line-height: 1.6;
+    margin-top: 2px;
 }
 #Brands{
     display: flex;
@@ -160,6 +162,14 @@ p{
     box-shadow: 0px 0px 8px var(--ShadowDark);
     border-radius: 5px;
 
+}
+.App{
+    margin-top: 70px;
+
+}
+.App h2{
+    font-weight: var(--FWeightXXL);
+    font-size: var(--XLarge);
 }
 
 
