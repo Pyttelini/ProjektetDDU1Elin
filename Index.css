@@ -3,15 +3,16 @@
     src: url("../material/Inter.ttf");
 }
 :root{
-    --LightGrey:#999999;
-    --Grey:#7f7f7f;
-    --DarkGrey:#353535;
-    --White:#f4f4f4;
+    --Grey:#999999;
+    --DeepGrey:#7f7f7f;
+    --DarkestGrey:#353535;
+    --DarkWhite:#f4f4f4;
     --Blue:#087fe7;
-    --DarkWhite:#e5e5e5;
+    --LightGrey:#e5e5e5;
     --Black:#050505;
     --LightBlack: #121212;
-    --DeepGrey: #666666;
+    --DarkGrey: #666666;
+    --White: #ffffff;
 
     --ShadowLight: rgba(0, 0, 0, 0.1);
     --ShadowDark: rgba(0, 0, 0, 0.2);
@@ -70,6 +71,8 @@ nav{
     text-decoration: none;
     color: var(--LightBlack);
     font-weight: var(--FWeightM);
+    padding: 8px;
+    margin: 0px;
 }
 #NavRight a img, #NavLeft a img{
     padding-bottom: 2px;
@@ -87,7 +90,7 @@ nav{
     height: 25px;
 }
 
-#LogInLine{
+#NavRight #LogInLine {
     padding-left: 20px;
     border-left: 1px solid var(--DarkWhite);
 }
@@ -102,6 +105,11 @@ button{
     font-weight: var(--FWeightL);
     display: inline;
     width: 120px;
+}
+
+a:hover{
+    background-color: var(--DarkWhite);
+    border-radius: 5px;
 }
 
 .Struktur{
