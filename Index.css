@@ -63,7 +63,7 @@ nav{
     display: flex;
     align-content: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--DarkWhite);
+    border-bottom: 1px solid var(--LightGrey);
     padding: 20px 0px;
 }
 
@@ -92,7 +92,7 @@ nav{
 
 #NavRight #LogInLine {
     padding-left: 20px;
-    border-left: 1px solid var(--DarkWhite);
+    border-left: 1px solid var(--LightGrey);
 }
 
 button{
@@ -106,7 +106,9 @@ button{
     display: inline;
     width: 120px;
 }
-
+button:hover{
+    background-color: var(--DarkestGrey);
+}
 a:hover{
     background-color: var(--DarkWhite);
     border-radius: 5px;
@@ -123,7 +125,7 @@ a:hover{
     display: flex;
     margin-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 1px solid var(--DarkWhite);
+    border-bottom: 1px solid var(--LightGrey);
     gap: 50px;
 }
 
@@ -158,7 +160,7 @@ p{
     gap: 23px;
     margin-top: 30px;
     padding: 0 30px 30px 30px;
-    border-bottom: 1px solid var(--DarkWhite);
+    border-bottom: 1px solid var(--LightGrey);
 }
 #Brands img{
     height: 25px;
@@ -233,10 +235,61 @@ p{
 }
 #EndApp{
     padding-bottom: 80px;
-    border-bottom: 1px solid var(--DarkWhite);
+    border-bottom: 1px solid var(--LightGrey);
 }
 
+#Plan{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--LightGrey);
 
+}
+#Plan h1{
+    font-size: var(--XXLarge);
+    font-weight: var(--FWeightXXL);
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+#Plan button{
+    margin: 20px 0px 70px 0px;
+}
+#Plan p{
+    color: var(--DeepGrey);
+    margin: 0;
+    max-width: 600px;
+    font-size: var(--XMedium);
+    font-weight: var(--FWeightL);
+
+}
+#BarkyPlan{
+    background-color: var(--DarkWhite);
+    width: 600px;
+    padding: 20px;
+    border-radius: 7px;
+
+}
+.PlanBit{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--LightGrey);
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+.PlanBit img{
+    height: 20px;
+    margin: 0;
+}
+#DarkTextBit{
+    color: var(--LightBlack);
+}
+#LastBit{
+    border-bottom: none;
+}
 
 
 
