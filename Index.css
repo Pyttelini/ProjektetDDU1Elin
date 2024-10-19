@@ -290,6 +290,108 @@ p{
 #LastBit{
     border-bottom: none;
 }
+#Build{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px solid var(--LightGrey);
 
+}
+#Build h1{
+    margin: 0px;
+    font-size: var(--XXLarge);
+    font-weight: var(--FWeightXXL);
+}
+#Build p{
+    margin: 0px;
+    margin-bottom: 10px;
+    font-size: var(--XMedium);
+    font-weight: var(--FWeightM);
+    color: var(--DeepGrey);
+}
+#ENPRDE{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 40px 0px 100px 0px;
+}
+#EN, #PR, #DE{
+    max-width: 300px;
+}
+#PR{
+    border-right: 1px solid var(--LightGrey);
+    border-left: 1px solid var(--LightGrey);
+    padding: 0px 20px;
+}
+#ENPRDE a{
+    color: var(--LightBlack);
+    text-decoration: underline;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: var(--XMedium);
+    font-weight: var(--FWeightL);
+}
+#ENPRDE h3{
+   font-weight: var(--FWeightXXL);
+   font-size: var(--Large);
+   margin: 5px 0px 10px 0px;
+}
+#G2Rate{
+    display: grid;
+    margin: 18px 0px 80px 0px;
+    grid-template-rows: 250px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+#Build #DogLove{
+    margin: 40px 0px;
+}
+#G2Rate h3,#G2Rate p{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    text-align: justify;
+}
+#G2Rate p{
+    grid-row: 1/2;
+    grid-column: 1/3;
+    margin-top: 50px;
+    max-width: 440px;
+}
+#G2Rate img{
+    height: 200px;
+    
+    grid-row: 1/2;
+    grid-column: 3/5;
+}
+#Procent1{
+    grid-row: 2/3;
+    grid-column: 1/2;
+    border-right: 1px solid var(--LightGrey);
+}
+#Procent2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+    border-right: 1px solid var(--LightGrey);
+}
+#Procent3{
+    grid-row: 2/3;
+    grid-column: 3/4;
+    border-right: 1px solid var(--LightGrey);
+}
+#Procent4{
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+#Procent1 p, #Procent2 p, #Procent3 p, #Procent4 p{
+    color: var(--DarkGrey);
+    margin: 0px;
+    text-align: center;
+}
+#Procent1 h1, #Procent2 h1, #Procent3 h1, #Procent4 h1{
+    color: var(--DarkGrey);
+    font-weight: var(--FWeightXXL);
+    font-size: var(--XHuge);
+}
 
 
