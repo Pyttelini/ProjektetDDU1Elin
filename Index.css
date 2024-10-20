@@ -494,12 +494,12 @@ Footer .FooterTexts a:hover{
         align-items: center;
     }
     .AppText{
-        width: 90%;
+        width: 85%;
         margin-right: auto;
         margin-left: auto;
     }
     .App .AppPic{
-        width: 90%;
+        width: 85%;
         margin-right: auto;
         margin-left: auto;
         display: block;
@@ -509,6 +509,18 @@ Footer .FooterTexts a:hover{
         font-weight: var(--FWeightXL);
         padding: 0px 15px;
 
+    }
+    #Plan{
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    #ENPRDE{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px 200px;
+        justify-items: center;
+    }
+    #PR{
+        border: none;
     }
 }
 
@@ -524,10 +536,19 @@ Footer .FooterTexts a:hover{
         margin: 7px 15px;
     }
     .AppText{
-        width: 90%;
+        width: 85%;
         text-align: center;
         margin-right: auto;
         margin-left: auto;
+    }
+    .AppText p{
+        max-width: 100%;
+    }
+    #ENPRDE{
+        grid-template-columns: 1fr;
+        grid-template-rows: 150px 150px 150px;
+        gap: 25px;
+        justify-items: center;
     }
 
 }
