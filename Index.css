@@ -45,9 +45,8 @@ body{
     background-color: var(--White);
     margin: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    
-
 }
 header{
     position: fixed;
@@ -58,7 +57,6 @@ header{
     background-color: var(--White);
 }
 nav{
-    
     margin: 0px 15px;
     display: flex;
     align-content: center;
@@ -82,8 +80,7 @@ nav{
     display: flex;
     gap: 20px;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center;   
 }
 
 #NavLeft #Barky{
@@ -109,7 +106,7 @@ button{
 button:hover{
     background-color: var(--DarkestGrey);
 }
-a:hover{
+header a:hover{
     background-color: var(--DarkWhite);
     border-radius: 5px;
 }
@@ -297,7 +294,7 @@ p{
     text-align: center;
     margin-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 1px solid var(--LightGrey);
+    
 
 }
 #Build h1{
@@ -337,6 +334,9 @@ p{
    font-weight: var(--FWeightXXL);
    font-size: var(--Large);
    margin: 5px 0px 10px 0px;
+}
+#Build a:hover{
+    color: #087fe7;
 }
 #G2Rate{
     display: grid;
@@ -392,6 +392,65 @@ p{
     color: var(--DarkGrey);
     font-weight: var(--FWeightXXL);
     font-size: var(--XHuge);
+}
+#Build #PMargin{
+    margin: 5px 0px 10px 0px;
+}
+#FooterLine{
+    margin: 0px 15px;
+    display: block;
+    border-top: 1px solid var(--LightGrey);
+    padding: 20px 0px;
+    width: 98%;
+}
+
+Footer{
+    max-width: 1200px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 40px 0px 40px 0px;
+}
+#FooterIcons img{
+    height: 30px;
+    margin-bottom: 15px;
+}
+#FooterIcons{
+    flex: -2;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 5px;
+    width: 100%;
+
+}
+#FooterIcons #Socials{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+#FooterIcons #Socials img{
+    height: 20px;
+}
+.FooterTexts{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: justify;
+    gap: 10px;
+}
+Footer .FooterTexts p{
+    margin: 0px;
+}
+Footer .FooterTexts a{
+    text-decoration: none;
+    color: var(--DeepGrey);
+}
+Footer .FooterTexts a:hover{
+    text-decoration: underline;
+    color: var(--DeepGrey);
+
 }
 
 
