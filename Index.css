@@ -91,6 +91,16 @@ nav{
     padding-left: 20px;
     border-left: 1px solid var(--LightGrey);
 }
+nav #Burger{
+    display: none;
+    height: 25px;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav #NavRight img:hover{
+    background-color: var(--DarkWhite);
+
+}
 
 button{
     background-color: var(--Black);
@@ -465,5 +475,21 @@ Footer .FooterTexts a:hover{
     text-decoration: underline;
     color: var(--DeepGrey);
 }
+@media (max-width: 1080px){
+    nav a{
+        display: none;
+    }
+    nav #LogInLine{
+        display: none;
+    }
+    nav #Burger{
+        display: inline;
+    }
+}
 
+@media (max-width: 601px){
+    nav #NavRight button{
 
+        display: none;
+    }
+}
