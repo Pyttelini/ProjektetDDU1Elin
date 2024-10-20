@@ -183,7 +183,6 @@ p{
     border-radius: 5px;
     margin-top: 30px;
     margin-bottom: 20px;
-
 }
 .App{
     margin-top: 80px;
@@ -485,7 +484,7 @@ Footer .FooterTexts a:hover{
     nav #Burger{
         display: inline;
     }
-
+    
     #Intro{
         flex-direction: column-reverse;
         text-align: center;
@@ -493,6 +492,23 @@ Footer .FooterTexts a:hover{
     }
     #IntroText{
         align-items: center;
+    }
+    .AppText{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .App .AppPic{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+    }
+    .Person h1{
+        font-size: var(--XLarge);
+        font-weight: var(--FWeightXL);
+        padding: 0px 15px;
+
     }
 }
 
@@ -507,4 +523,11 @@ Footer .FooterTexts a:hover{
     #Intro p{
         margin: 7px 15px;
     }
+    .AppText{
+        width: 90%;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
 }
