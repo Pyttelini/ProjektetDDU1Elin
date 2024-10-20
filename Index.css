@@ -113,6 +113,7 @@ header a:hover{
 
 .Struktur{
     max-width: 1000px;
+    width: 100%;
     margin-top: 71px;
     margin-left: auto;
     margin-right: auto;
@@ -127,7 +128,8 @@ header a:hover{
 }
 
 #Intro img{
-    width: 450px;
+    max-width: 450px;
+    width: 100%;
 }
 #IntroText{
     display: flex;
@@ -166,6 +168,7 @@ p{
 
 .App .AppPic{
     max-width: 995px;
+    width: 100%;
     box-shadow: 0px 0px 10px var(--ShadowLight);
     border-radius: 5px;
     margin-top: 30px;
@@ -264,9 +267,11 @@ p{
 }
 #BarkyPlan{
     background-color: var(--DarkWhite);
-    width: 600px;
-    padding: 20px;
+    max-width: 550px;
+    width: 100%;
+    padding: 10px;
     border-radius: 7px;
+    box-sizing: border-box;
 
 }
 .PlanBit{
@@ -359,8 +364,8 @@ p{
     max-width: 440px;
 }
 #G2Rate img{
-    height: 200px;
-    
+    max-width: 495px;
+    width: 100%;
     grid-row: 1/2;
     grid-column: 3/5;
 }
@@ -430,27 +435,35 @@ Footer{
     margin-bottom: 30px;
     gap: 10px;
 }
+#FooterIcons p{
+    font-weight: var(--FWeightM);
+    font-size: var(--XXMedium);
+    max-width: 250px;
+}    
 #FooterIcons #Socials img{
     height: 20px;
 }
 .FooterTexts{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 65%;
     text-align: justify;
     gap: 10px;
 }
 Footer .FooterTexts p{
     margin: 0px;
+    font-size: var(--XMedium);
+    font-weight: var(--FWeightXL);
 }
 Footer .FooterTexts a{
     text-decoration: none;
     color: var(--DeepGrey);
+    font-size: var(--XMedium);
+    font-weight: var(--FWeightL);
 }
 Footer .FooterTexts a:hover{
     text-decoration: underline;
     color: var(--DeepGrey);
-
 }
 
 
