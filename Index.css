@@ -485,11 +485,26 @@ Footer .FooterTexts a:hover{
     nav #Burger{
         display: inline;
     }
+
+    #Intro{
+        flex-direction: column-reverse;
+        text-align: center;
+        align-items: center;
+    }
+    #IntroText{
+        align-items: center;
+    }
 }
 
 @media (max-width: 601px){
     nav #NavRight button{
 
         display: none;
+    }
+    nav{
+        border-bottom: none;
+    }
+    #Intro p{
+        margin: 7px 15px;
     }
 }
