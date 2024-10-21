@@ -61,16 +61,17 @@ nav{
     display: flex;
     align-content: center;
     justify-content: space-between;
-    border-bottom: 1px solid var(--LightGrey);
     padding: 20px 0px;
+    position: relative;
 }
 
 #NavRight a, #NavLeft a{
     text-decoration: none;
     color: var(--LightBlack);
-    font-weight: var(--FWeightM);
-    padding: 8px;
+    font-weight: var(--FWeightL);
+    font-size: var(--XMedium);
     margin: 0px;
+    padding: 6px;
 }
 #NavRight a img, #NavLeft a img{
     padding-bottom: 2px;
@@ -113,12 +114,84 @@ button{
     display: inline;
     width: 120px;
 }
+#HeaderLine{
+    margin: 52px 15px 0px 15px;
+    display: block;
+    border-bottom: 1px solid var(--LightGrey);
+    padding: 20px 0px;
+    width: 98%;
+    padding-bottom: 0px;
+    z-index: 10;
+    position: fixed;
+ }
 button:hover{
     background-color: var(--DarkestGrey);
 }
 header a:hover{
     background-color: var(--DarkWhite);
     border-radius: 5px;
+}
+.DropdownMenu{
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    background-color: var(--White);
+    margin: 0px;
+    width: 130px;
+    z-index: 10;
+    gap: 5px;
+    padding: 5px 5px 10px 5px;
+    box-shadow: 0px 0px 4px var(--ShadowDark);
+    margin: 5px 0px 0px 0px;
+    border-radius: 3px;
+}
+.Dropdown:hover nav.DropdownMenu{
+    display: flex;
+}
+#DownloadDrop{
+    width: 150px;
+}
+#DownloadDrop p{
+    font-weight: var(--FWeightM);
+    font-size: var(--XXSmall);
+    color: var(--Grey);
+    margin: 4px 0px 0px 7px;
+}
+#DownloadDrop a#BarkyBrowser{
+    text-decoration: underline;
+    font-weight: var(--FWeightM);
+    font-size: var(--XXSmall);
+    color: var(--Grey);
+}
+#DownloadDrop a#BarkyBrowser:hover{
+    color: var(--Blue);
+    background-color: transparent;
+}
+.Dropdown #ProductDrop a{
+    display: flex;
+    flex-direction: row;
+    height: 35px;
+}
+.Dropdown #ProductDrop div{
+    margin-left: 10px;
+    
+}
+.Dropdown #ProductDrop div p{
+    margin-top: 0px;
+    font-weight: var(--FWeightM);
+    font-size: var(--XXSmall);
+    color: var(--Grey);
+}
+
+.Dropdown #ProductDrop{
+    width: 250px;
+}
+.Dropdown #ProductDrop img{
+    height: 20px;
+    padding: 2.5px;
+    border: 1px solid var(--LightGrey);
+    border-radius: 5px;
+    align-self: center;
 }
 
 .Struktur{
@@ -350,7 +423,7 @@ p{
    margin: 5px 0px 10px 0px;
 }
 #Build a:hover{
-    color: #087fe7;
+    color: var(--Blue);
 }
 #G2Rate{
     display: grid;
@@ -410,7 +483,7 @@ p{
     margin: 5px 0px 10px 0px;
 }
 #FooterLine{
-    margin: 0px 15px;
+   margin: 0px 15px;
     display: block;
     border-top: 1px solid var(--LightGrey);
     padding: 20px 0px;
